@@ -2671,11 +2671,59 @@
       }
 
       #realestate .inner {
-        display: block;
+        display: block !important;
+        gap: 0 !important;
+      }
+
+      #realestate {
+        padding: 56px 20px 64px !important;
       }
 
       #realestate .inner .re-visual {
         margin-bottom: 36px;
+        min-height: 340px;
+        padding: 32px 22px 40px;
+      }
+
+      #realestate .re-image {
+        top: 64px;
+        height: 190px;
+        padding: 0 22px;
+      }
+
+      #realestate .re-badge {
+        top: 20px;
+        left: 20px;
+        right: 20px;
+        width: fit-content;
+        max-width: calc(100% - 40px);
+        font-size: 9px;
+        letter-spacing: 0.12em;
+      }
+
+      #realestate .re-big {
+        font-size: clamp(58px, 17vw, 78px);
+        margin-top: 24px;
+      }
+
+      #realestate .re-text {
+        font-size: 15px !important;
+        line-height: 1.7;
+      }
+
+      #realestate .re-item {
+        align-items: flex-start;
+        gap: 9px;
+        padding: 10px 11px;
+        font-size: 13px;
+        line-height: 1.45;
+      }
+
+      #realestate .btn-solid {
+        display: block;
+        width: 100%;
+        text-align: center;
+        padding: 15px 18px;
       }
 
       .svc-grid {
@@ -2757,8 +2805,57 @@
       }
 
       #smaas .inner {
-        grid-template-columns: 1fr;
-        gap: 40px;
+        display: block !important;
+        grid-template-columns: 1fr !important;
+        gap: 0 !important;
+      }
+
+      #smaas {
+        padding: 56px 20px 64px !important;
+      }
+
+      #smaas .smaas-desc {
+        font-size: 15px !important;
+        line-height: 1.7;
+      }
+
+      #smaas .sf {
+        gap: 9px;
+        padding: 9px 11px;
+      }
+
+      #smaas .sf p {
+        font-size: 13px;
+        line-height: 1.45;
+      }
+
+      #smaas .smaas-metrics {
+        display: grid;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 8px;
+        margin-top: 36px;
+      }
+
+      #smaas .sm-metric {
+        min-width: 0;
+        padding: 20px 15px;
+        border-left-width: 3px;
+      }
+
+      #smaas .sm-num {
+        font-size: clamp(32px, 10vw, 48px);
+      }
+
+      #smaas .sm-lbl {
+        font-size: 11px;
+        line-height: 1.45;
+      }
+
+      #smaas .btn-solid {
+        display: block;
+        width: 100%;
+        text-align: center;
+        padding: 15px 18px;
       }
     }
 
