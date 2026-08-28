@@ -2860,6 +2860,14 @@
     }
 
     @media(max-width:500px) {
+      html {
+        scroll-snap-type: none;
+      }
+
+      .svc-grid {
+        transition: none;
+      }
+
       .hero-layout {
         gap: 38px;
       }
@@ -2912,6 +2920,12 @@
 
       .cl-grid {
         grid-template-columns: repeat(2, 1fr);
+      }
+
+      .ft-legal {
+        flex-wrap: wrap;
+        justify-content: center;
+        row-gap: 8px;
       }
     }
 
@@ -3659,20 +3673,20 @@
       <div class="ft-col">
         <h4>Legal</h4>
         <ul>
-          <li><a href="#">Privacy Policy</a></li>
-          <li><a href="#">Terms of Service</a></li>
-          <li><a href="#">Cookie Policy</a></li>
-          <li><a href="#">Refund Policy</a></li>
-          <li><a href="#">Sitemap</a></li>
+          <li><a href="legal.html#privacy-policy">Privacy Policy</a></li>
+          <li><a href="legal.html#terms-of-service">Terms of Service</a></li>
+          <li><a href="legal.html#cookie-policy">Cookie Policy</a></li>
+          <li><a href="legal.html#refund-policy">Refund Policy</a></li>
+          <li><a href="legal.html#sitemap">Sitemap</a></li>
         </ul>
       </div>
     </div>
     <div class="ft-bottom">
       <p>© 2025 The Brandeu. All rights reserved. Built for Market Leaders.</p>
       <div class="ft-legal">
-        <a href="#">Privacy Policy</a>
-        <a href="#">Terms of Service</a>
-        <a href="#">Sitemap</a>
+        <a href="legal.html#privacy-policy">Privacy Policy</a>
+        <a href="legal.html#terms-of-service">Terms of Service</a>
+        <a href="legal.html#sitemap">Sitemap</a>
       </div>
     </div>
   </footer>
